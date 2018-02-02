@@ -92,3 +92,7 @@ display(points)
 // MAGIC 
 // MAGIC # display this html
 // MAGIC displayHTML(html)
+
+// COMMAND ----------
+
+println("hello world")
