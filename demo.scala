@@ -1,4 +1,8 @@
 // Databricks notebook source
+println("Sandy's demo")
+
+// COMMAND ----------
+
 case class MyCaseClass(key: String, group: String, value: Int)
 val dataframe = sc.parallelize(Array(MyCaseClass("f", "consonants", 1),
        MyCaseClass("g", "consonants", 2),
